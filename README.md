@@ -119,7 +119,7 @@ Now, with Python libraries and open-source ML tools, **Srishti AI** brings those
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/yourusername/srishti-ai.git
+git clone https://github.com/Whiteroot09/Srishti-AI.git
 cd srishti-ai
 pip install -r requirements.txt
 python srishti.py
