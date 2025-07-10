@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SRISHTI AI
 
 ## Table of Contents
@@ -47,3 +48,6 @@ This technology voice application is now relatively inexpensive and powerful, Wi
 ---
 
 **Note:** Please ensure to update this README with relevant information, installation instructions, and any other necessary details as your project evolves.
+=======
+# Srishti-AI
+>>>>>>> 8fef98d08daa0ee8517a5b01b3c8e35f4e70b155
