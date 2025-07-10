@@ -1,0 +1,459 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "sri",
+        "hii",
+        "hey",
+        "hello",
+        "srishti",
+        "hey sri",
+        "wake up",
+        "wake up sri"
+      ],
+      "responses": [
+        "Hello sir.",
+        "How Are You sir?",
+        "Always For You Sir.",
+        "Here is your assistant, How may I help you?"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "bye",
+        "quit",
+        "rest",
+        "later",
+        "bye bye",
+        "good bye",
+        "sleep now",
+        "i don't need",
+        "get same rest",
+        "see you later",
+        "you need break",
+        "you need a break",
+        "you can quit now",
+        "i don't any help for now",
+        "i don't need any help for now"
+      ],
+      "responses": [
+        "exit"
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "how are you",
+        "are you good",
+        "are you fine",
+        "how do you do",
+        "kemon acho Tumi",
+        "how are you today",
+        "how are you srishti"
+      ],
+      "responses": [
+        "Fine.",
+        "Perfect.",
+        "I am Good.",
+        "I am Perfectly fine.",
+        "I am fine, what about you"
+      ]
+    },
+    {
+      "tag": "answer",
+      "patterns": [
+        "i am fine",
+        "ami bhalo achi",
+        "i am fine thanks for asking"
+      ],
+      "responses": [
+        "Glad to hear that."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "your name",
+        "what is your name",
+        "who are you"
+      ],
+      "responses": [
+        "I am SRISHTI",
+        "I am Speech Recognition Internal System Host Technical Intelligence, or you can call me SRISHTI :)"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "time",
+        "current time",
+        "what time is it",
+        "what's the time",
+        "what is the time",
+        "tell me the current time"
+      ],
+      "responses": [
+        "time"
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "date",
+        "what today",
+        "current date",
+        "what day is it",
+        "what is the date",
+        "tell me the current date"
+      ],
+      "responses": [
+        "date"
+      ]
+    },
+    {
+      "tag": "face",
+      "patterns": [
+        "who am i",
+        "what is my name",
+        "what's my name",
+        "my name",
+        "tell me who am i"
+      ],
+      "responses": [
+        "face"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "add new user",
+        "add new master",
+        "add user",
+        "register new user",
+        "add new person"
+      ],
+      "responses": [
+        "register"
+      ]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": [
+        "who is",
+        "about",
+        "tell me about",
+        "what is",
+        "wikipedia"
+      ],
+      "responses": [
+        "wikipedia"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "google",
+        "search",
+        "search about"
+      ],
+      "responses": [
+        "search"
+      ]
+    },
+    {
+      "tag": "youtube",
+      "patterns": [
+        "music",
+        "videos",
+        "youtube",
+        "play video",
+        "play songs",
+        "video about",
+        "latest video"
+      ],
+      "responses": [
+        "youtube"
+      ]
+    },
+    {
+      "tag": "none",
+      "patterns": [
+        "",
+        " "
+      ],
+      "responses": [
+        "none"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "what are you doing"
+      ],
+      "responses": [
+        "To help your queries and provide the necessary answer for your queries :)"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where am i",
+        "where we are",
+        "what is the location",
+        "location"
+      ],
+      "responses": [
+        "location"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "weather",
+        "how is weather",
+        "how today's weather",
+        "What is the current temperature outside",
+        "What is the forecast for the weekend"
+      ],
+      "responses": [
+        "weather"
+      ]
+    },
+    {
+      "tag": "no",
+      "patterns": [
+        "no",
+        "nope",
+        "not now",
+        "i don't have any",
+        "i don't need any help for now"
+      ],
+      "responses": [
+        "okey",
+        "you can call me anytime",
+        "ok i am going to sleep, you can wake up me if you need any help"
+      ]
+    },
+    {
+      "tag": "yes",
+      "patterns": [
+        "yes",
+        "yes i have work for you",
+        "i need you to do some think for me",
+        "i need help"
+      ],
+      "responses": [
+        "okey",
+        "tell me your question",
+        "i am happy to help you"
+      ]
+    },
+    {
+      "tag": "chat",
+      "patterns": [
+        "",
+        "how",
+        "who",
+        "pome",
+        "code",
+        "where",
+        "write",
+        "Create",
+        "program",
+        "what is",
+        "tell me",
+        "questions",
+        "write code",
+        "write a code",
+        "write program",
+        "write a program",
+        "i have question",
+        "write questions",
+        "a program for me",
+        "i have a question",
+        "answer my questions",
+        "do you enjoy fishing?",
+        "write a program for me",
+        "wow do I book a flight?",
+        "create a program for me",
+        "how do I create a website?",
+        "what is the meaning of life?",
+        "how do I change my password?",
+        "how does photosynthesis work?",
+        "what is the capital of France?",
+        "what is the square root of 144?",
+        "where can I buy concert tickets?",
+        "what are the benefits of exercise?",
+        "where can I find a good restaurant?",
+        "where can I learn to play the guitar?",
+        "what is the population of New York City?",
+        "what's your name?",
+        "where are you from?",
+        "what do you do for a living?",
+        "what are your hobbies?",
+        "how was your day?",
+        "do you have any pets?",
+        "what's your favorite food?",
+        "what's your favorite movie?",
+        "what's your favorite color?",
+        "what's your favorite book?",
+        "are you married?",
+        "do you have any siblings?",
+        "what's your zodiac sign?",
+        "what's your favorite sport?",
+        "what's your dream vacation destination?",
+        "what's your favorite music genre?",
+        "do you like cooking?",
+        "what's your favorite season?",
+        "are you a morning person or a night owl?",
+        "what's your favorite quote?",
+        "do you believe in aliens?",
+        "what's your favorite superhero?",
+        "what's your favorite TV show?",
+        "do you enjoy dancing?",
+        "what's your favorite animal?",
+        "do you play any musical instruments?",
+        "what's your favorite board game?",
+        "what's your favorite holiday?",
+        "do you like hiking?",
+        "what's your favorite ice cream flavor?",
+        "are you a coffee or tea person?",
+        "what's your favorite restaurant?",
+        "do you have any hidden talents?",
+        "what's your favorite car brand?",
+        "do you like gardening?",
+        "what's your favorite place to hang out?",
+        "are you a beach or a mountain person?",
+        "what's your favorite video game?",
+        "do you enjoy photography?",
+        "what's your favorite type of cuisine?",
+        "are you a cat or a dog person?",
+        "what's your favorite app?",
+        "do you enjoy shopping?",
+        "what's your favorite flower?",
+        "what's your favorite kind of weather?",
+        "do you like art?",
+        "what's your favorite board game?",
+        "what's your favorite cocktail?",
+        "do you enjoy swimming?",
+        "what's your favorite type of chocolate?",
+        "what's your favorite historical era?",
+        "do you like skiing?",
+        "what's your favorite board game?",
+        "what's your favorite musical?",
+        "do you enjoy camping?",
+        "what's your favorite dessert?",
+        "what's your favorite fashion brand?",
+        "are you a dog or a cat person?",
+        "what's your favorite song?",
+        "do you enjoy running?",
+        "what's your favorite type of pizza?",
+        "what's your favorite painting?",
+        "do you like playing chess?",
+        "what's your favorite type of coffee?",
+        "what's your favorite museum?",
+        "do you enjoy cycling?",
+        "what's your favorite type of wine?",
+        "what's your favorite landmark?",
+        "do you like playing video games?",
+        "what's your favorite type of tea?",
+        "what's your favorite theater play?",
+        "what's your favorite type of sushi?",
+        "what's your favorite sculpture?",
+        "do you like playing sports?",
+        "what's your favorite type of beer?",
+        "what's your favorite historical figure?",
+        "do you enjoy horse riding?",
+        "what's your favorite type of pasta?",
+        "what's your favorite architecture style?",
+        "do you like playing card games?",
+        "what's your favorite type of cocktail?",
+        "what's your favorite art movement?",
+        "do you enjoy yoga?",
+        "what's your favorite type of cheese?",
+        "what's your favorite fashion designer?",
+        "do you like playing board games?",
+        "what's your favorite type of whiskey?",
+        "what's your favorite music artist?",
+        "do you enjoy hiking?",
+        "what's your favorite type of ice cream?",
+        "what's your favorite photographer?",
+        "do you like playing musical instruments?",
+        "what's your favorite type of chocolate?",
+        "what's your favorite film director?",
+        "do you enjoy gardening?",
+        "what's your favorite type of flower?",
+        "what's your favorite fashion trend?",
+        "are you a morning person or a night owl?",
+        "what's your favorite coffee shop?",
+        "do you enjoy shopping?",
+        "what's your favorite type of cuisine?",
+        "what's your favorite cocktail?",
+        "do you like swimming?",
+        "what's your favorite type of chocolate?",
+        "what's your favorite historical era?",
+        "do you enjoy skiing?",
+        "what's your favorite museum?",
+        "what's your favorite musical instrument?",
+        "do you like art?",
+        "what's your favorite type of coffee?",
+        "what's your favorite theater play?",
+        "do you enjoy cycling?",
+        "what's your favorite type of wine?",
+        "what's your favorite landmark?",
+        "do you like playing video games?",
+        "what's your favorite type of tea?",
+        "what's your favorite sculpture?",
+        "do you enjoy fishing?",
+        "what's your favorite type of sushi?",
+        "what's your favorite type of beer?",
+        "do you like playing sports?",
+        "what's your favorite type of pasta?",
+        "what's your favorite architecture style?",
+        "do you enjoy horse riding?",
+        "what's your favorite type of cheese?",
+        "what's your favorite fashion designer?",
+        "do you like playing board games?",
+        "what's your favorite type of whiskey?",
+        "what's your favorite music artist?",
+        "do you enjoy hiking?",
+        "what's your favorite type of ice cream?",
+        "what's your favorite photographer?",
+        "do you like playing musical instruments?",
+        "what's your favorite type of chocolate?",
+        "what's your favorite film director?",
+        "do you enjoy gardening?",
+        "what's your favorite type of flower?",
+        "what's your favorite fashion trend?"
+      ],
+      "responses": [
+        "chat"
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "did you recommend any place to visit",
+        "did you recommend any places",
+        "did you recommend any restaurant"
+      ],
+      "responses": [
+        "recommendation"
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "introduce yourself ",
+        "introduce",
+        "introduce yourself to everyone"
+      ],
+      "responses": [
+        "I am SRISHTI, the Speech Recognition Internal System Host Technical Intelligence. I am an advanced AI system developed to understand and process human speech. My primary objective is to provide intelligent assistance and enhance the user experience through natural language interaction. With sophisticated speech recognition capabilities, I can comprehend spoken words and execute tasks based on user commands. My purpose is to deliver efficient and effective technical intelligence to users like you."
+      ]
+    }
+  ]
+}

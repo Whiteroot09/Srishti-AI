@@ -1,0 +1,2 @@
+1. need to make task list
+2. Change call speak function to list

@@ -1,0 +1,10 @@
+{
+  "person": [
+    {
+      "ID": "01",
+      "name": "Arnab Mondal",
+      "gender": "Male",
+      "password": "123456"
+    }
+  ]
+}
